@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="067a687c-1bbb-48bb-9e58-28fe77230c07" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="spring part1" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1a8YBDt3nYMutTS52LgxGtpADCE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="067a687c-1bbb-48bb-9e58-28fe77230c07" name="Default Changelist" comment="" />
+      <created>1586118551452</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586118551452</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="240" y="76" key="#Project_Structure" timestamp="1586119111544">
+      <screen x="0" y="22" width="1280" height="778" />
+    </state>
+    <state x="240" y="76" key="#Project_Structure/0.22.1280.778@0.22.1280.778" timestamp="1586119111544" />
+    <state x="453" y="82" key="#com.intellij.ide.util.MemberChooser" timestamp="1586342859400">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="453" y="82" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1586342859400" />
+    <state x="453" y="102" key="#com.intellij.ide.util.MemberChooser/0.22.1280.778@0.22.1280.778" timestamp="1586258139339" />
+    <state x="215" y="93" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1586258071464">
+      <screen x="0" y="22" width="1280" height="778" />
+    </state>
+    <state x="215" y="93" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.22.1280.778@0.22.1280.778" timestamp="1586258071464" />
+    <state x="319" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1586274247232">
+      <screen x="0" y="22" width="1280" height="778" />
+    </state>
+    <state x="319" y="243" key="com.intellij.ide.util.TipDialog/0.22.1280.778@0.22.1280.778" timestamp="1586274247232" />
+  </component>
+</project>
