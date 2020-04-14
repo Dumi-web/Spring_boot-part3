@@ -1,36 +1,43 @@
 package com.dumisani.spring.part1;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @Repository
 public class FakeRepo implements FakeRepoInterFace {
-    @Autowired
-    public static User [] newUser;
+
+     List<User> newUser = new ArrayList<>();
 
     @Override
-    public void insertUser(int Id, String name, String surname) {
-        for (int i = 0; i <newUser.length ; i++) {
-            if(newUser[i] == null){
-                newUser [0] = new User(1,"Dumisani","Ngobeni");
-                newUser [1] = new User(2,"Cassey","Muronga");
-                newUser [2] = new User(3,"Thuso","White");
-                newUser [3] = new User(4,"Puma","WinterBottom");
-                newUser [4] = new User(5,"Clive","Glover");
+    public String insertUser(long Id, String name, String surname) {
+        User users = new User(1,name,surname);
+        newUser.add(users);
+        return "Name: "+name;
+        }
+
+    @Override
+    public String findUserById(long Id) {
+        for (User users : newUser) {
+            long userId = users.getId();
+            if (userId == Id) {
+               return "Hello " + users.getName() +" "+ users.getSurname();
             }
         }
+        return null;
     }
 
     @Override
-    public int findById(int Id) {
-        for (int i = 0; i <newUser.length ; i++) {
-
+    public String deleteUser(long Id) {
+        for (User users: newUser) {
+            long userId = users.getId();
+            if(userId == Id){
+                newUser.remove(users);
+                return users.getName() + " Removed";
+            }
         }
-
+        return null;
     }
 
-    @Override
-    public int deleteUser(int Id) {
-
-    }
 }

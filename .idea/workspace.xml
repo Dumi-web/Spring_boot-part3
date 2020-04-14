@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="067a687c-1bbb-48bb-9e58-28fe77230c07" name="Default Changelist" comment="" />
+    <list default="true" id="067a687c-1bbb-48bb-9e58-28fe77230c07" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dumisani/spring/part1/UserServicesImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/dumisani/spring/part1/UserServicesImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dumisani/spring/part1/FakeRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dumisani/spring/part1/FakeRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dumisani/spring/part1/FakeRepoInterFace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dumisani/spring/part1/FakeRepoInterFace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dumisani/spring/part1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dumisani/spring/part1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dumisani/spring/part1/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dumisani/spring/part1/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dumisani/spring/part1/UserServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dumisani/spring/part1/UserServices.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,12 +41,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1a8YBDt3nYMutTS52LgxGtpADCE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -38,9 +59,45 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.dumisani.spring.part1" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.dumisani.spring.part1" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dumisani.spring.part1.Main" />
+      <module name="spring_part1.main" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8080" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dumisani.spring.part1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -56,22 +113,60 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="240" y="76" key="#Project_Structure" timestamp="1586119111544">
-      <screen x="0" y="22" width="1280" height="778" />
-    </state>
-    <state x="240" y="76" key="#Project_Structure/0.22.1280.778@0.22.1280.778" timestamp="1586119111544" />
-    <state x="453" y="82" key="#com.intellij.ide.util.MemberChooser" timestamp="1586342859400">
+    <state x="240" y="56" key="#Project_Structure" timestamp="1586874396388">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="453" y="82" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1586342859400" />
+    <state x="240" y="56" key="#Project_Structure/0.0.1280.800@0.0.1280.800" timestamp="1586874396388" />
+    <state x="240" y="76" key="#Project_Structure/0.22.1280.778@0.22.1280.778" timestamp="1586119111544" />
+    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586852728038">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1586852728038" />
+    <state x="453" y="82" key="#com.intellij.ide.util.MemberChooser" timestamp="1586807130648">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="453" y="82" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1586807130648" />
     <state x="453" y="102" key="#com.intellij.ide.util.MemberChooser/0.22.1280.778@0.22.1280.778" timestamp="1586258139339" />
     <state x="215" y="93" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1586258071464">
       <screen x="0" y="22" width="1280" height="778" />
     </state>
     <state x="215" y="93" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.22.1280.778@0.22.1280.778" timestamp="1586258071464" />
-    <state x="319" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1586274247232">
-      <screen x="0" y="22" width="1280" height="778" />
+    <state x="378" y="154" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1586812984636">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state x="378" y="154" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1280.800@0.0.1280.800" timestamp="1586812984636" />
+    <state width="1238" height="162" key="GridCell.Tab.0.bottom" timestamp="1586867852783">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="162" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1586867852783" />
+    <state width="1238" height="162" key="GridCell.Tab.0.center" timestamp="1586867852782">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="162" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1586867852782" />
+    <state width="1238" height="162" key="GridCell.Tab.0.left" timestamp="1586867852779">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="162" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1586867852779" />
+    <state width="1238" height="162" key="GridCell.Tab.0.right" timestamp="1586867852783">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="162" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1586867852783" />
+    <state x="435" y="185" key="chooseDestDirectoryDialog" timestamp="1586874375974">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="435" y="185" key="chooseDestDirectoryDialog/0.0.1280.800@0.0.1280.800" timestamp="1586874375974" />
+    <state x="319" y="227" key="com.intellij.ide.util.TipDialog" timestamp="1586783680315">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="319" y="227" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1586783680315" />
     <state x="319" y="243" key="com.intellij.ide.util.TipDialog/0.22.1280.778@0.22.1280.778" timestamp="1586274247232" />
+    <state x="407" y="149" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586874541896">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="407" y="149" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.800@0.0.1280.800" timestamp="1586874541896" />
+    <state x="34" y="14" key="new project wizard" timestamp="1586570941861">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="34" y="14" key="new project wizard/0.0.1280.800@0.0.1280.800" timestamp="1586570941861" />
   </component>
 </project>

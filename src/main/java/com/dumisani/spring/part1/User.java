@@ -1,9 +1,5 @@
 package com.dumisani.spring.part1;
 
-import jdk.jfr.events.CertificateId;
-import org.springframework.boot.autoconfigure.domain.EntityScan;
-
-@EntityScan
 public class User  {
     private long Id;
     private String name;
@@ -38,9 +34,5 @@ public class User  {
 
     public void setSurname(String surname) {
         this.surname = surname;
-    }
-    @Override
-    public String toString(){
-        return "User[Id=" + Id + ", name=" + name +", surname=" + surname + "]";
     }
 }
