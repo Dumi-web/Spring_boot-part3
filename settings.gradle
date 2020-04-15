@@ -1,2 +1,3 @@
 rootProject.name = 'spring part1'
+include 'spring boot'
 

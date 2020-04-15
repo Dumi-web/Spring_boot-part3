@@ -1,9 +1,12 @@
 package com.dumisani.spring.part1;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class UserServicesImpl implements UserServices {
     static FakeRepo repo = new FakeRepo();
     @Override
-    public String addUser(String name, String surname) {
+    public String addUser(long Id , String name, String surname) {
         return repo.insertUser(1,name,surname);
     }
     @Override
