@@ -7,7 +7,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 @SpringBootTest
 public class UserTest {
     @Autowired
-    UserServicesImpl user;
+    public UserServices user;
     @Test
     public void addUser(){
         String newName = user.addUser(1,"Dumisani","Ngobeni");
