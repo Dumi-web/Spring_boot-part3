@@ -1,24 +1,27 @@
 package com.dumisani.spring.part1;
 
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-
-import static org.junit.Assert.assertEquals;
-
+import static org.assertj.core.api.Assertions.assertThat;
 @SpringBootTest
 public class UserTest {
-    static UserServicesImpl user = new UserServicesImpl();
+    @Autowired
+    UserServicesImpl user;
     @Test
     public void addUser(){
-        assertEquals("Name: Dumisani",user.addUser(1,"Dumisani","Ngobeni"));
+        String newName = user.addUser(1,"Dumisani","Ngobeni");
+        assertThat(newName).isEqualTo("Dumisani Entered");
     }
     @Test
     public void getUser(){
-        assertEquals("Hello Dumisani Ngobeni",user.getUser(1));
+        String name = user.getUser(1);
+        assertThat(name).isEqualTo("Hello Dumisani Ngobeni");
     }
     @Test
     public void removeUser(){
-        assertEquals("Dumisani Removed",user.removeUser(1));
+        String Nam = user.removeUser(1);
+        assertThat(Nam).isEqualTo("Dumisani Removed");
     }
 
 }

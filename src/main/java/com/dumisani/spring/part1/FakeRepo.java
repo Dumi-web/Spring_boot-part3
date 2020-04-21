@@ -8,13 +8,12 @@ import java.util.List;
 @Repository
 public class FakeRepo implements FakeRepoInterFace {
 
-     List<User> newUser = new ArrayList<>();
-
-    @Override
-    public String insertUser(long Id, String name, String surname) {
+     static List<User> newUser = new ArrayList<>();
+     @Override
+     public String insertUser(long Id, String name, String surname) {
         User users = new User(1,name,surname);
         newUser.add(users);
-        return "Name: "+name;
+        return name + " Entered";
         }
 
     @Override
