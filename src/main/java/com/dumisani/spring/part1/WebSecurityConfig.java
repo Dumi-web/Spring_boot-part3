@@ -20,7 +20,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .withUser("dumisani")
                 .password(encoder.encode("password"))
                 .roles("USER");
-
     }
     @Override
     protected void configure(HttpSecurity http) throws Exception{
@@ -32,5 +31,4 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .httpBasic();
     }
-
 }

@@ -12,6 +12,7 @@ public class Main {
         SpringApplication.run(Main.class, args);
         System.out.println(users.addUser(1,"Dumisani","Ngobeni"));
         System.out.println(users.getUser(1));
-        //System.out.println(users.removeUser(1));
+        System.out.println(users.getUser(1));
+        System.out.println(users.removeUser(1));
     }
 }
