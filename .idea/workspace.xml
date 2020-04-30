@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="067a687c-1bbb-48bb-9e58-28fe77230c07" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dumisani/spring/part1/PostMan Images/DeleteMapping.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
@@ -12,6 +13,8 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/dumisani/spring/part1/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/dumisani/spring/part1/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dumisani/spring/part1/PostMan Images/GetMapping.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dumisani/spring/part1/PostMan Images/GetMapping.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dumisani/spring/part1/PostMan Images/PostMapping.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dumisani/spring/part1/PostMan Images/PostMapping.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/dumisani/spring/part1/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dumisani/spring/part1/controller/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
