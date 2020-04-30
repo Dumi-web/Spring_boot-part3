@@ -5,31 +5,25 @@ import com.dumisani.spring.part1.UserServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-@RequestMapping("/api/user")
+@RequestMapping("api/user/")
 @RestController
 public class UserController {
-    private final UserServices userServices;
 
-    @GetMapping("/")
-    public String Home(){
-        return "Welcome Home";
-    }
     @Autowired
-    public UserController(UserServices userServices){
-        this.userServices = userServices;
-    }
-    @PostMapping()
-    public void addUser(@RequestBody User user) {
-        userServices.addUser(user.getId(),user.getName(),user.getSurname());
+    UserServices userServices;
+
+    @PostMapping("addUser/")
+    public String addUser(@RequestBody User user) {
+        return userServices.addUser(user.getId(),user.getName(),user.getSurname());
     }
 
-    @GetMapping(path = "/{Id}")
-    public String getUser(@PathVariable(value = "Id") long Id){
+    @GetMapping("getUser/{Id}")
+    public String getUser(@PathVariable long Id){
         return userServices.getUser(Id);
     }
 
-    @DeleteMapping(path = "/{Id}")
-    public String removeUser(@PathVariable(value = "Id") long Id){
+    @DeleteMapping("delete/{Id}")
+    public String removeUser(@PathVariable long Id){
         return userServices.removeUser(Id);
     }
 }
