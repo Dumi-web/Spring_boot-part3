@@ -1,6 +1,5 @@
 package com.dumisani.spring.part1;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -14,18 +13,8 @@ public class UserServicesImpl implements UserServices {
         return fakeRepo.insertUser(1,name,surname);
     }
     @Override
-    @Cacheable("name")
     public String getUser(long Id) {
         fakeRepo = new FakeRepo();
-        try
-        {
-            System.out.println("Going to sleep for 5 Secs.. to simulate backend call.");
-            Thread.sleep(1000*5);
-        }
-        catch (InterruptedException e)
-        {
-            e.printStackTrace();
-        }
         return fakeRepo.findUserById(1);
     }
 
